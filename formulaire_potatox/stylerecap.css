@@ -1,0 +1,125 @@
+/*Importation de la police provenant de Google Font*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif; /*Police d'écriture*/
+    background-color: blueviolet;
+    color: black;
+
+}
+header{
+    color: white;
+    width: 800px;
+    margin: auto;
+    padding: 0 10px 0 20px;
+    border-radius: 10px;
+}
+/* TITRE */
+.h1-h2{
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 60px; 
+}
+.h1{
+    background-color: pink;
+    border-radius: 20px;
+    position: absolute;
+    padding: 0 10px 0 10px;
+    margin-left: -30px;
+}
+.h2{    
+    background-color: rgb(255, 142, 161);
+    border-radius: 20px;
+    position: absolute;
+    padding: 0 10px 0 10px;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+h3 {
+    background-color: pink;
+    border-radius: 20px;
+    padding: 0 10px 0 10px;
+    margin-right: 100px;
+    margin-left: 5px;
+    font-weight: lighter;
+}
+
+/* RECTANGLE VERT CONTOUR ROSE */
+.contenu-complet {
+    background-color: rgb(167, 255, 193);
+    box-shadow: 0 0 15px 1px pink;
+    width: 800px;
+    margin: auto;
+    padding: 20px 10px 0 20px;
+    border-radius: 10px;
+    display:flex;
+}
+
+/* COTE GAUCHE */
+.gauche {
+    width: 40%;
+}
+
+.rose{
+    position: absolute;
+}
+#legende{
+    font-family: 'Poppins', sans-serif;
+    border-style: none;
+    background-color: pink;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 3px;
+}
+.placeholder{
+    padding: 5px;
+    border-radius: 15px;
+    margin-top: 35px;
+    margin-bottom: -25px;
+}
+
+.violet{
+    background-color: rgb(219, 182, 253);
+    padding: 5px 10px 10px 5px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.bleu{
+    background-color: rgb(148, 223, 241);
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-left:5px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.test{
+    font-weight: bold;
+}
+
+/* COTE DROIT*/
+.droite{ 
+    width: 60%;
+}
+
+.textarea{
+    background-color: aquamarine;
+    padding: 10px 10px 5px 10px;
+    margin-top: 45px;
+    border-radius: 10px;
+}
+#description-projet{
+    font-family: 'Poppins', sans-serif;
+    width: 90%;
+    min-height: 300px;
+    resize: none;
+    border-radius: 3px;
+    border-style: none;
+    padding: 0 20px 0 20px;
+    cursor:default;
+    
+}

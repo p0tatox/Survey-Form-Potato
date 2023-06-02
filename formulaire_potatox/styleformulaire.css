@@ -1,0 +1,170 @@
+/*Importation de la police provenant de Google Font*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif; /*Police d'écriture*/
+    background-color: blueviolet; /*Couleur de fond*/
+    color: rgb(0, 0, 0); /*Couleur police d'écriture des écritures de la page*/
+    
+}
+/* TITRES */
+header{
+    color: white;
+    width: 800px; /*largeur*/
+    margin: auto;
+    padding: 0 10px 0 20px;
+    border-radius: 10px;
+}
+.h1-h2{
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 60px; 
+}
+.h1{
+    background-color: pink;
+    border-radius: 20px;
+    position: absolute;
+    padding: 0 10px 0 10px;
+    margin-left: -30px;
+}
+.h2{    
+    background-color: rgb(255, 142, 161);
+    border-radius: 20px;
+    position: absolute;
+    padding: 0 10px 0 10px;
+    margin-left: 200px;
+    margin-top: -20px;
+}
+
+/* Cadre VERT */
+.contenu-complet {
+    background-color: rgb(167, 255, 193);
+    box-shadow: 0 0 15px 1px pink;
+    width: 800px;
+    margin: auto;
+    padding: 20px 10px 0 20px;
+    border-radius: 10px;
+    display:flex; /* afin de modifier les dimensions pour remplir l'espace disponible*/
+    flex-wrap: wrap;
+
+}
+/* Coté Gauche*/
+.gauche{
+    width: 40%;
+}
+
+/* Encadrés Couleur */
+.violet{
+    background-color: rgb(219, 182, 253);
+    padding: 5px 10px 10px 5px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.bleu{
+    background-color: rgb(148, 223, 241);
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-left:5px;
+    display: flex;
+    flex-direction: column; /*pour mettre en colonne*/
+}
+.rose{
+    background-color: pink;
+    border-radius: 20px;
+    position: absolute;
+    padding: 5px;
+}
+.beige{
+    background-color: rgb(253, 219, 156);
+    margin-left: 80px;
+    padding: 5px 5px 8px 8px;
+    border-radius: 15px;
+}
+#nom-prenom-email-intitule {
+    font-family: 'Poppins', sans-serif;
+    border-style: none;
+    width: 95%;
+}
+
+/* Bouton Radio */
+.radio{
+    background-color: pink;
+    border-radius: 15px;
+    margin-left: 100px;
+    padding: 5px;
+}
+
+/* Checkbox et Dropdown */
+.checkbox-container{
+    margin-top: 50px;
+}
+.checkbox{
+    background-color: pink;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom:10px;
+}
+#dropdown{
+    font-family: 'Poppins', sans-serif;
+    width: 25%;
+    height: 30px;
+    border-radius: 3px;
+    margin-left: 200px;
+    margin-bottom:2px;
+    margin-top: 2px;
+    cursor: pointer; /*pour afficher le curseur avec le "petit doigt" quand on passe au dessus du bouton*/ 
+}
+#rep-souhaite{
+    font-size: 15px;
+    margin-right: -200px;
+}
+
+/* Coté Droit */
+.droite{ 
+    width: 60%;
+}
+textarea {
+    font-family: 'Poppins', sans-serif;
+    width: 90%;
+    min-height: 300px;
+    resize: none;
+    border-radius: 3px;
+    border-style: none;
+    padding: 0 20px 0 20px;
+}
+.textarea{
+    background-color: aquamarine;
+    padding: 10px 10px 5px 10px;
+    margin-top: 45px;
+    border-radius: 10px;
+}
+
+/* Boutons */
+footer{
+    display: inline-flex; /* pour mettre en ligne*/
+    margin-left: 450px;
+    margin-top: -100px;
+}
+button{
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+}
+#reinitialiser {
+    background-color: rgb(252, 90, 90);
+    margin-left: 30px;
+    font-family: 'Poppins', sans-serif;
+    border-color: brown;
+    cursor: pointer;
+    text-decoration: none;
+}
+#envoyer{
+    background-color: rgb(113, 255, 100);
+    margin-left: 30px;
+    font-family: 'Poppins', sans-serif;
+    border-color: green;
+    cursor: pointer;
+}
